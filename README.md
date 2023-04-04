@@ -8,3 +8,10 @@ $ python -m venv venv
 $ .\venv\Scripts\activate
 $ (venv) pip install numpy pandas seaborn
 ```
+
+## 기존 설정 복사
+```shell
+$ python -m venv venv
+$ .\venv\Scripts\activate
+$ (venv) pip install -r requirements.txt
+```
