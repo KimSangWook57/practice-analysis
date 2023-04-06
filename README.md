@@ -10,7 +10,7 @@
 ```shell
 $ python -m venv venv
 $ .\venv\Scripts\activate
-$ (venv) pip install numpy pandas seaborn
+$ (venv) pip install numpy pandas seaborn jupyterlab scikit-learn
 ```
 
 ## 기존 설정 복사
@@ -22,6 +22,6 @@ $ (venv) pip install -r requirements.txt
 
 ## ToDo
 
-- [ ] 회귀 문제(캘리포니아 집값 데이터)
-- [ ] 분류 문제(타이타닉 생존자 예측, Kaggle)
+- [ ] 회귀 문제([캘리포니아 집값 데이터])(https://www.kaggle.com/datasets/camnugent/california-housing-prices) 
+- [ ] 분류 문제([타이타닉 생존자 예측, Kaggle])
 - [ ] 시계열 문제(문제 탐색 중)
