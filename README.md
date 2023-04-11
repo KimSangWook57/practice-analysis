@@ -16,8 +16,13 @@ Python 3.10.11
 $ python -m venv venv
 # for Windows
 $ .\venv\Scripts\activate
-# for Linux/macOS
-$ source ./venv/bin/activate
+$ (venv) pip install numpy pandas seaborn
+```
+
+## 기존 설정 복사
+```shell
+$ python -m venv venv
+$ .\venv\Scripts\activate
 $ (venv) pip install -r requirements.txt
 ```
 
@@ -34,6 +39,6 @@ $ (venv) pip install -r requirements.txt
 
 ## ToDo
 
-- [ ] 회귀 문제([캘리포니아 집 값 데이터](http://lib.stat.cmu.edu/datasets/))
-- [ ] 분류 문제([타이타닉 생존자 예측](https://www.kaggle.com/c/titanic))
+- [ ] 회귀 문제(캘리포니아 집값 데이터)
+- [ ] 분류 문제(타이타닉 생존자 예측, Kaggle)
 - [ ] 시계열 문제(문제 탐색 중)
