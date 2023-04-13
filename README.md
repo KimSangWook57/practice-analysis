@@ -37,6 +37,10 @@ $ (venv) pip install -r requirements.txt
 * xgboost
 * optuna
 
+* finance-datareader
+* prophet
+* pycountry
+
 ## ToDo
 
 - [ ] 회귀 문제(캘리포니아 집값 데이터)
